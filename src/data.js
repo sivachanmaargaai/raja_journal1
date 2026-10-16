@@ -1,13 +1,12 @@
-// Add real URLs and images here. Put images in public/images/.
-
-
+import portraitImg from './assets/images/raja.jpg';
+import bookCoverImg from './assets/images/book-cover.jpg';
 
 export const profile = {
     name: 'Raja Narayanasamy',
     roles: 'Technology Business Leader · Entrepreneur · Author · Strategic Advisor',
     focus: 'AI · Edge AI · Physical AI · Intelligent Products · Technology Business',
-    portrait: '/images/raja.jpg', // Example: '/images/raja.jpg'
-    bookCover: '/images/book-cover.jpg', // Example: '/images/book-cover.jpg'
+    portrait: portraitImg,
+    bookCover: bookCoverImg,
     email: 'raja@engencbss.com',
     linkedin: 'https://www.linkedin.com/in/rajanarayanasamy/',
     bookUrl: 'https://amzn.in/d/04mWjnnv',
